@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35806.103 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NORA", "NORA\NORA.csproj", "{1B3FEADC-9094-4771-862F-047A0BA0304B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NORA.Web", "NORA.Web\NORA.Web.csproj", "{D86D131A-F4E4-431F-8B6F-6A5323310011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3FEADC-9094-4771-862F-047A0BA0304B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3FEADC-9094-4771-862F-047A0BA0304B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3FEADC-9094-4771-862F-047A0BA0304B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3FEADC-9094-4771-862F-047A0BA0304B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86D131A-F4E4-431F-8B6F-6A5323310011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86D131A-F4E4-431F-8B6F-6A5323310011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86D131A-F4E4-431F-8B6F-6A5323310011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86D131A-F4E4-431F-8B6F-6A5323310011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92131EC9-2F08-44FD-A50E-54C3989540CA}
+	EndGlobalSection
+EndGlobal
