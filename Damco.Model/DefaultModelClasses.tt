@@ -1,0 +1,4 @@
+﻿<#@ include file="DefaultModelClasses.ttinclude" #>
+<#
+    this.RenderDefaultModelClasses("Damco");  
+#>

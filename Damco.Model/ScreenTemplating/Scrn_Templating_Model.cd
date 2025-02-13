@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Damco.Model.ScreenTemplating.FieldDisplay">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAACAAAAAAAAAAAAAAgEAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\FieldDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.FieldEdit">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAKA=</HashCode>
+      <FileName>ScreenTemplating\FieldDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.FieldEditList">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEBAAABAAQAgAAAICAAACAAgAAAABAAAA=</HashCode>
+      <FileName>ScreenTemplating\FieldDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.FormTemplate">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ScreenTemplating\FormTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.FormTemplateField">
+    <Position X="6.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACACEAIAAADAAAAAAAAAAIEAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\FormTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.TableTemplate">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ScreenTemplating\TableTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.TableTemplateField">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAIAAADAAAAAAAAAAIAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\TableTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.GridPositions">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAABAAAAAAAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ScreenTemplating\GridPositions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.GridPosition">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABgFAAAAAAAAAAAAJAAAAAAAAAIAAAAAAAEgAA=</HashCode>
+      <FileName>ScreenTemplating\GridPositions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Damco.Model.ScreenTemplating.ListType">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAQAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\FieldDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

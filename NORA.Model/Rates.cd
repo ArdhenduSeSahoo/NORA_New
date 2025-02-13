@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NORA.Model.RateContractSet" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NORA.Model.RateContract" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="2.75" />
+    <AssociationLine Name="SlidingScaleType" Type="NORA.Model.SlidingScaleType" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="4.312" />
+        <Point X="9.188" Y="4.312" />
+        <Point X="9.188" Y="5.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.502" Y="0.715" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAOSgAAAAgAMAgAMAAKYAAAACSoQABAAAAAABCQQAAA=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RateContractSet" />
+      <Property Name="SlidingScaleType" />
+      <Property Name="DataSource" />
+      <Property Name="MultiplyStandardMeasurementType" />
+      <Property Name="ScaleStandardMeasurementType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NORA.Model.Rate" BaseTypeListCollapsed="true">
+    <Position X="9" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACQBAAAAAAIAAAAAIAAAAAAA0ABBAAAEAAAAAAACI=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RateContract" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NORA.Model.RateScale" BaseTypeListCollapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rate" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NORA.Model.MeasurementType">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="NORA.Model.RateMeasurementDataSource">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAQAAAABAAAAAAQCAAAAAAA=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NORA.Model.MeasurementSourceType">
+    <Position X="0.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAoAAAAAAGAAAAAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NORA.Model.SlidingScaleType">
+    <Position X="8.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

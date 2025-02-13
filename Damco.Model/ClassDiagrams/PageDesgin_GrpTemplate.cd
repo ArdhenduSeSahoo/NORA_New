@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Damco.Model.ScreenTemplating.GroupTemplate">
+    <Position X="3.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\GroupTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.GroupTemplatePart">
+    <Position X="3.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACACIAAEAAAEAAAAAAAAAAAAAAAABAAAAAAAFAEAA=</HashCode>
+      <FileName>ScreenTemplating\GroupTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.PageDesign">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAkAAAAIAAEAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\PageDesign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.PageDesignStructure">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAEMAAAAAAEQQAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\PageDesign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.PageDesignStructureDataSource">
+    <Position X="9.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAggAAA=</HashCode>
+      <FileName>ScreenTemplating\PageDesign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.PageDesignDataSource">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>UAACAAAAAAAgIgAAAAAEAAAAEAAAAAAAAxAAEAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\PageDesignDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.ScreenTemplating.PageDesignDataSourceOrderField">
+    <Position X="0.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAEAACAAAAgAAgEAAA=</HashCode>
+      <FileName>ScreenTemplating\PageDesignDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damco.Model.DataSourcing.DataSource" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAQAAAAAAQAAAAEABACAAAAAAgAA=</HashCode>
+      <FileName>DataSourcing\DataSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" Collapsed="true" />
+  </Class>
+  <Class Name="Damco.Model.DataSourcing.DataField" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAEAAAAAiAEAAAAAAAAEAAAAAgAAAAAAAAAAIA=</HashCode>
+      <FileName>DataSourcing\DataSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Damco.Model.DataSourcing.StoreDataSource">
+    <Position X="5.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAgAAQAAAAAQAAAAAAAAEAAACAAAAAAgAA=</HashCode>
+      <FileName>ScreenTemplating\StoreDataSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Damco.Model.DataSourcing.StoreDataField">
+    <Position X="7.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAIAAAAAAQAAAAIAAAAAAAAAAAABEAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\StoreDataSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="Damco.Model.ScreenTemplating.GroupDisplayType">
+    <Position X="6.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\GroupTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Damco.Model.ScreenTemplating.ContainerType">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAACAAAAAEAAAA=</HashCode>
+      <FileName>ScreenTemplating\GroupTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Damco.Model.ScreenTemplating.OrderByType">
+    <Position X="1" Y="7.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenTemplating\PageDesignDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Damco.Model.DataSourcing.PivotType">
+    <Position X="2.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>DataSourcing\DataSource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Damco.Model.DataSourcing.PivotColumnSource">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataSourcing\DataSource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
